@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(images/image1.jpg);
+}
+.d1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+.m {
+    color: white;
+    padding-left: 50px;
+    font-family: 'Times New Roman';
+}
+.btn1 {
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+.btn11 {
+    text-decoration: none;
+    color: black;
+}
+.only {
+    border-radius: 50px;
+    height: 35px;
+    width: 100px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+}
+article{
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.p1 {
+    color: white;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.p2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid wheat;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+.btn2 {
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+}
+.only1 {
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+}
+.txt {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}

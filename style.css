@@ -1,13 +1,16 @@
 body{
+    background-image: url(images/image1.jpg);
+    background-size: auto;
+    background-position: left;
     padding: 0px;
     margin: 0px;
-    background-image: url(images/image1.jpg);
 }
 .d1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     border-bottom: 1px solid white;
     position: sticky;
     top: 0;
@@ -29,6 +32,8 @@ body{
     color: black;
 }
 .only {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     border-radius: 50px;
     height: 35px;
     width: 100px;
@@ -40,41 +45,45 @@ body{
     padding-right: 70px;
 }
 article{
-    padding-left: 60px;
-    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    padding-top: 100px;
 }
 .p1 {
     color: white;
     font-size: 100px;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 .p2 {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: black;
+    padding-top: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     border-top: 1px solid wheat;
     gap: 10px;
-    margin-bottom: 0px;
 }
 .btn2 {
     text-decoration: none;
     color: white;
-    padding-top: 35px;
+    padding-bottom: 30px;
+    margin: 0px;
 }
 .only1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     border-radius: 50px;
     height: 30px;
     width: 150px;
 }
 .txt {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 16px;
-    margin-top: 10px;
 }
